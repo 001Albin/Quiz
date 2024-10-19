@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Quiz</title>
+    <link rel="stylesheet" href="quiz.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="icon" type="image/x-icon" href="" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Acme&family=Monoton&family=Rock+Salt&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <main class="main">
+      <header class="header">
+        <a href="#" class="logo">Quiz.</a>
+
+        <nav class="navbar">
+          <a href="#" class="active">Home</a>
+          <a href="#">About</a>
+          <a href="#">Services</a>
+          <a href="">Contact</a>
+        </nav>
+      </header>
+      <div class="container">
+        <section class="Quiz-section">
+          <div class="quiz-box">
+            <h1>My quiz</h1>
+            <div class="quiz-header">
+              <span>Quiz Website Tutorials</span>
+              <span class="header-score">score : 0 / 5</span>
+            </div>
+            <h2 class="question-text">What does HTML stands for?</h2>
+
+            <div class="option-list">
+              <div class="option">
+                <span>A.Hyper Text Markup Language</span>
+              </div>
+              <div class="option">
+                <span>B.hello text made lang</span>
+              </div>
+              <div class="option">
+                <span>C.Hypo mark text</span>
+              </div>
+              <div class="option">
+                <span>D.Hi text mark</span>
+              </div>
+            </div>
+            <div class="quiz-footer">
+              <span class="question-total"></span>
+              <button class="next-btn">Next</button>
+            </div>
+          </div>
+          <div class="result-box">
+            <h2>Quiz Result</h2>
+            <div class="percentage-container">
+              <div class="circular-progress">
+                <span class="progress-value">0%</span>
+              </div>
+              <span class="score-text">Your Score : 0 out of 5</span>
+            </div>
+            <div class="button">
+              <button class="tryAgain-btn">Try again</button>
+              <button class="goHome-btn">go to home</button>
+            </div>
+          </div>
+        </section>
+
+        <section class="home">
+          <div class="home-content">
+            <h1>Quiz Website</h1>
+            <p>
+              Welcome to your go-to quiz site! Test your knowledge on various
+              topics, enjoy quizzes for all skill levels, and get instant
+              feedback. Perfect for solo play or friendly competition—dive in
+              and see how much you know!
+            </p>
+            <button class="start-btn">start Quiz</button>
+          </div>
+        </section>
+      </div>
+    </main>
+    <div class="popup-info">
+      <h1>Quiz Guide</h1>
+      <span class="info">1.Read Instructions Carefully</span><br />
+      <span class="info">2.Manage Your Time</span><br />
+      <span class="info">3.Stay Honest</span><br />
+      <span class="info">4.Enjoy the Process</span>
+      <div class="btn-group">
+        <button class="info-btn exit-btn">Exit Quiz</button>
+        <a href="#" class="info-btn continue-btn">continue</a>
+      </div>
+    </div>
+    <script src="quiz.js"></script>
+  </body>
+</html>
